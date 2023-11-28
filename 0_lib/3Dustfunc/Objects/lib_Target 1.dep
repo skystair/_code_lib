@@ -1,0 +1,6 @@
+Dependencies for Project 'lib', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (.\dustfunc.c)(0x6502BE15)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-D__UVISION_VERSION="538" -DGD32F310-o ./objects/dustfunc.o -MD)
+I (dustfunc.h)(0x6502BE2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+F (.\dustfunc.h)(0x6502BE2A)()

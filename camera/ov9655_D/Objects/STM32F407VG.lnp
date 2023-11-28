@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\startup_stm32f4xx.o"
+".\objects\system_stm32f4xx.o"
+".\objects\stm32f4xx_it.o"
+".\objects\user_systick.o"
+".\objects\misc.o"
+".\objects\stm32f4xx_dcmi.o"
+".\objects\stm32f4xx_dma.o"
+".\objects\stm32f4xx_fsmc.o"
+".\objects\stm32f4xx_gpio.o"
+".\objects\stm32f4xx_i2c.o"
+".\objects\stm32f4xx_rcc.o"
+".\objects\stm32f4xx_usart.o"
+".\objects\stm32f4xx_spi.o"
+".\objects\gpiox.o"
+".\objects\timerx.o"
+".\objects\uartx.o"
+".\objects\lcd_driver.o"
+".\objects\lcd_lib.o"
+".\objects\dcmi_ov9655.o"
+".\objects\sccb.o"
+".\objects\uart3func.o"
+".\objects\main.o"
+".\objects\config.o"
+--strict --scatter ".\Objects\STM32F407VG.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\STM32F407VG.map" -o .\Objects\STM32F407VG.axf

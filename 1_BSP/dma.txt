@@ -1,0 +1,39 @@
+unsigned char u8txtest[10]= {"test123456"};
+
+//DMA INIT-----------------------------------------------
+	dma_parameter_struct dmastruct;
+	dmastruct.direction = DMA_MEMORY_TO_PERIPHERAL;
+	dmastruct.memory_addr = (uint32_t)(u8txtest);
+	dmastruct.memory_inc = DMA_MEMORY_INCREASE_ENABLE;
+	dmastruct.memory_width = DMA_MEMORY_WIDTH_8BIT;
+	dmastruct.number = 10;
+	dmastruct.periph_addr = (uint32_t)(&USART_TDATA(USART0));
+	dmastruct.periph_inc = DMA_PERIPH_INCREASE_DISABLE;
+	dmastruct.periph_width = DMA_PERIPHERAL_WIDTH_8BIT;
+	dmastruct.priority = DMA_PRIORITY_ULTRA_HIGH;
+	dma_init(DMA_CH1, &dmastruct);
+	
+	dma_circulation_disable(DMA_CH1);
+    dma_memory_to_memory_disable(DMA_CH1);
+	
+	dma_interrupt_enable(DMA_CH1, DMA_INT_FTF);
+	
+	nvic_irq_enable(DMA_Channel1_2_IRQn, 0, 0);
+	
+	dma_channel_enable(DMA_CH1);
+	
+//func
+usart_dma_transmit_config(USART0, USART_DENT_ENABLE);
+
+
+//INT
+if(dma_interrupt_flag_get(DMA_CH1,DMA_INT_FTF)){
+		dma_interrupt_flag_clear(DMA_CH1,DMA_INT_FTF);
+		
+		usart_dma_transmit_config(USART0, USART_DENT_DISABLE);
+		dma_channel_disable(DMA_CH1);
+		
+		DMA_CHCNT(DMA_CH1) = 10;
+		dma_channel_enable(DMA_CH1);
+		
+	}

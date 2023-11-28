@@ -1,0 +1,2139 @@
+Dependencies for Project 'stm32f103c8', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::ARMCC
+F (.\_user\1CORE\system_stm32f1xx.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\system_stm32f1xx.o --omf_browse .\objects\system_stm32f1xx.crf --depend .\objects\system_stm32f1xx.d)
+I (_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\1CORE\stm32f1xx_it.h)(0x6065356C)()
+F (.\_user\1CORE\stm32f1xx_it.c)(0x6065684F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_it.o --omf_browse .\objects\stm32f1xx_it.crf --depend .\objects\stm32f1xx_it.d)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+I (_user\1CORE\stm32f1xx_it.h)(0x6065356C)
+F (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)()
+F (.\_user\1CORE\startup_stm32f103xb.s)(0x606ADAC9)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 532" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f103xb.lst --xref -o .\objects\startup_stm32f103xb.o --depend .\objects\startup_stm32f103xb.d)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c)(0x606560B0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal.o --omf_browse .\objects\stm32f1xx_hal.crf --depend .\objects\stm32f1xx_hal.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_gpio.o --omf_browse .\objects\stm32f1xx_hal_gpio.crf --depend .\objects\stm32f1xx_hal_gpio.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_cortex.o --omf_browse .\objects\stm32f1xx_hal_cortex.crf --depend .\objects\stm32f1xx_hal_cortex.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_dma.o --omf_browse .\objects\stm32f1xx_hal_dma.crf --depend .\objects\stm32f1xx_hal_dma.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_exti.o --omf_browse .\objects\stm32f1xx_hal_exti.crf --depend .\objects\stm32f1xx_hal_exti.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_flash.o --omf_browse .\objects\stm32f1xx_hal_flash.crf --depend .\objects\stm32f1xx_hal_flash.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_flash_ex.o --omf_browse .\objects\stm32f1xx_hal_flash_ex.crf --depend .\objects\stm32f1xx_hal_flash_ex.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_gpio_ex.o --omf_browse .\objects\stm32f1xx_hal_gpio_ex.crf --depend .\objects\stm32f1xx_hal_gpio_ex.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_iwdg.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_iwdg.o --omf_browse .\objects\stm32f1xx_hal_iwdg.crf --depend .\objects\stm32f1xx_hal_iwdg.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_pwr.o --omf_browse .\objects\stm32f1xx_hal_pwr.crf --depend .\objects\stm32f1xx_hal_pwr.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_rcc.o --omf_browse .\objects\stm32f1xx_hal_rcc.crf --depend .\objects\stm32f1xx_hal_rcc.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_rcc_ex.o --omf_browse .\objects\stm32f1xx_hal_rcc_ex.crf --depend .\objects\stm32f1xx_hal_rcc_ex.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c)(0x606562A3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_spi.o --omf_browse .\objects\stm32f1xx_hal_spi.crf --depend .\objects\stm32f1xx_hal_spi.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c)(0x606567F1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_tim.o --omf_browse .\objects\stm32f1xx_hal_tim.crf --depend .\objects\stm32f1xx_hal_tim.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_tim_ex.o --omf_browse .\objects\stm32f1xx_hal_tim_ex.crf --depend .\objects\stm32f1xx_hal_tim_ex.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_uart.o --omf_browse .\objects\stm32f1xx_hal_uart.crf --depend .\objects\stm32f1xx_hal_uart.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\2drive\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c)(0x606530D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\stm32f1xx_hal_i2c.o --omf_browse .\objects\stm32f1xx_hal_i2c.crf --depend .\objects\stm32f1xx_hal_i2c.d)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+F (.\_user\3BSP\bsp_gpio.c)(0x6099CFF1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\bsp_gpio.o --omf_browse .\objects\bsp_gpio.crf --depend .\objects\bsp_gpio.d)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\3BSP\bsp_spi.c)(0x60828359)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\bsp_spi.o --omf_browse .\objects\bsp_spi.crf --depend .\objects\bsp_spi.d)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\3BSP\bsp_timer.c)(0x6099F81E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\bsp_timer.o --omf_browse .\objects\bsp_timer.crf --depend .\objects\bsp_timer.d)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\3BSP\bsp_uart.c)(0x60814283)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\bsp_uart.o --omf_browse .\objects\bsp_uart.crf --depend .\objects\bsp_uart.d)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\3BSP\IIC.c)(0x6099FBC6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\iic.o --omf_browse .\objects\iic.crf --depend .\objects\iic.d)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\4device\Fan.c)(0x606579CE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\fan.o --omf_browse .\objects\fan.crf --depend .\objects\fan.d)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\4device\LED.c)(0x60657BC6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\4device\key.c)(0x60657D71)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\4device\OLED.c)(0x60A3D419)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\4device\SHT.c)(0x6099FE79)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\sht.o --omf_browse .\objects\sht.crf --depend .\objects\sht.d)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\main.c)(0x6099FE83)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\config.c)(0x6099FBBB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\config.o --omf_browse .\objects\config.crf --depend .\objects\config.d)
+I (_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\config.h)(0x6099F883)()
+F (.\_user\boardIO.h)(0x6099D39E)()
+F (.\_user\4device\OLED\OLED\OLED_0in91.c)(0x606AC12E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\oled_0in91.o --omf_browse .\objects\oled_0in91.crf --depend .\objects\oled_0in91.d)
+I (_user\4device\OLED\OLED\OLED_0in91.h)(0x5F3CA113)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (.\_user\4device\OLED\OLED\OLED_0in95_rgb.c)(0x5F3CA4FF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\oled_0in95_rgb.o --omf_browse .\objects\oled_0in95_rgb.crf --depend .\objects\oled_0in95_rgb.d)
+I (_user\4device\OLED\OLED\OLED_0in95_rgb.h)(0x5F3C9DBD)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (.\_user\4device\OLED\OLED\OLED_0in96.c)(0x5F48721C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\oled_0in96.o --omf_browse .\objects\oled_0in96.crf --depend .\objects\oled_0in96.d)
+I (_user\4device\OLED\OLED\OLED_0in96.h)(0x5F486B46)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (.\_user\4device\OLED\iic\Soft_IIC.h)(0x606AC06E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (.\_user\4device\OLED\OLED\OLED_1in3.c)(0x5F48721A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\oled_1in3.o --omf_browse .\objects\oled_1in3.crf --depend .\objects\oled_1in3.d)
+I (_user\4device\OLED\OLED\OLED_1in3.h)(0x5F3FAA85)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (.\_user\4device\OLED\iic\Soft_IIC.h)(0x606AC06E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (.\_user\4device\OLED\OLED\OLED_1in3_c.c)(0x5F3C82E5)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\oled_1in3_c.o --omf_browse .\objects\oled_1in3_c.crf --depend .\objects\oled_1in3_c.d)
+I (_user\4device\OLED\OLED\OLED_1in3_c.h)(0x5F3C82DF)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (.\_user\4device\OLED\OLED\OLED_1in5.c)(0x606AE497)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\oled_1in5.o --omf_browse .\objects\oled_1in5.crf --depend .\objects\oled_1in5.d)
+I (_user\4device\OLED\OLED\OLED_1in5.h)(0x606AE620)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (.\_user\4device\OLED\OLED\OLED_1in5_rgb.c)(0x5F3CA50B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\oled_1in5_rgb.o --omf_browse .\objects\oled_1in5_rgb.crf --depend .\objects\oled_1in5_rgb.d)
+I (_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (.\_user\4device\OLED\iic\Soft_IIC.c)(0x5F4871CF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\soft_iic.o --omf_browse .\objects\soft_iic.crf --depend .\objects\soft_iic.d)
+I (_user\4device\OLED\iic\Soft_IIC.h)(0x606AC06E)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+F (.\_user\4device\OLED\DEV_Config.c)(0x606AC283)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\dev_config.o --omf_browse .\objects\dev_config.crf --depend .\objects\dev_config.d)
+I (_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63878A)
+F (.\_user\5function\GUI_Paint.c)(0x606ABE9B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\gui_paint.o --omf_browse .\objects\gui_paint.crf --depend .\objects\gui_paint.d)
+I (_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+F (.\_user\4device\OLED\Example\ImageData.c)(0x5F3CBF33)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\imagedata.o --omf_browse .\objects\imagedata.crf --depend .\objects\imagedata.d)
+I (_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+F (.\_user\4device\OLED\Fonts\font8.c)(0x5B3C9236)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\font8.o --omf_browse .\objects\font8.crf --depend .\objects\font8.d)
+I (_user\4device\OLED\Fonts\fonts.h)(0x5BD6A308)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+F (.\_user\4device\OLED\Fonts\font12.c)(0x5B3C9236)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\font12.o --omf_browse .\objects\font12.crf --depend .\objects\font12.d)
+I (_user\4device\OLED\Fonts\fonts.h)(0x5BD6A308)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+F (.\_user\4device\OLED\Fonts\font12CN.c)(0x5A9E48CE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\font12cn.o --omf_browse .\objects\font12cn.crf --depend .\objects\font12cn.d)
+I (_user\4device\OLED\Fonts\fonts.h)(0x5BD6A308)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+F (.\_user\4device\OLED\Fonts\font16.c)(0x5B3C9236)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\font16.o --omf_browse .\objects\font16.crf --depend .\objects\font16.d)
+I (_user\4device\OLED\Fonts\fonts.h)(0x5BD6A308)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+F (.\_user\4device\OLED\Fonts\font20.c)(0x5B3C9236)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\font20.o --omf_browse .\objects\font20.crf --depend .\objects\font20.d)
+I (_user\4device\OLED\Fonts\fonts.h)(0x5BD6A308)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+F (.\_user\4device\OLED\Fonts\font24.c)(0x5B3C9236)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\font24.o --omf_browse .\objects\font24.crf --depend .\objects\font24.d)
+I (_user\4device\OLED\Fonts\fonts.h)(0x5BD6A308)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+F (.\_user\4device\OLED\Fonts\font24CN.c)(0x5A9E4AFB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\font24cn.o --omf_browse .\objects\font24cn.crf --depend .\objects\font24cn.d)
+I (_user\4device\OLED\Fonts\fonts.h)(0x5BD6A308)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+F (.\_user\4device\AD7124\ad7124_console_app.c)(0x6099F7C8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\ad7124_console_app.o --omf_browse .\objects\ad7124_console_app.crf --depend .\objects\ad7124_console_app.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (_user\4device\AD7124\spi.h)(0x5E46E532)
+I (_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\4device\AD7124\ad7124_regs_config_a.c)(0x60988BF4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\ad7124_regs_config_a.o --omf_browse .\objects\ad7124_regs_config_a.crf --depend .\objects\ad7124_regs_config_a.d)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+F (.\_user\4device\AD7124\ad7124_regs_config_b.c)(0x5E46E530)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\ad7124_regs_config_b.o --omf_browse .\objects\ad7124_regs_config_b.crf --depend .\objects\ad7124_regs_config_b.d)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+F (.\_user\4device\AD7124\ad7124_support.c)(0x606EB4B3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\ad7124_support.o --omf_browse .\objects\ad7124_support.crf --depend .\objects\ad7124_support.d)
+I (_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\4device\AD7124\adi_console_menu.c)(0x5E46E530)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\adi_console_menu.o --omf_browse .\objects\adi_console_menu.crf --depend .\objects\adi_console_menu.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+F (.\_user\4device\AD7124\delay.c)(0x5E46E530)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (_user\4device\AD7124\delay.h)(0x5E46E530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\4device\AD7124\platform_support.c)(0x6099F73F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\platform_support.o --omf_browse .\objects\platform_support.crf --depend .\objects\platform_support.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\4device\AD7124\spi.c)(0x60813D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63878A)
+I (_user\4device\AD7124\spi.h)(0x5E46E532)
+I (_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63877C)
+I (.\_user\config.h)(0x6099F883)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x606548A7)
+I (.\_user\1CORE\stm32f1xx_hal_conf.h)(0x606AC290)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x606530D6)
+I (.\_user\1CORE\stm32f1xx.h)(0x606530D6)
+I (.\_user\1CORE\stm32f103xb.h)(0x606530D6)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\_user\1CORE\system_stm32f1xx.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x606530D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F63877C)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x60655E12)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x60656A09)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x606530D6)
+I (.\_user\2drive\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x606530D6)
+I (.\_user\boardIO.h)(0x6099D39E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\3BSP\bsp_gpio.h)(0x6065871D)
+I (.\_user\3BSP\bsp_spi.h)(0x60813C58)
+I (.\_user\3BSP\bsp_timer.h)(0x6065790C)
+I (.\_user\3BSP\bsp_uart.h)(0x6073E864)
+I (.\_user\3BSP\IIC.h)(0x606586F0)
+I (.\_user\4device\Fan.h)(0x60657AB3)
+I (.\_user\4device\LED.h)(0x6065874F)
+I (.\_user\4device\key.h)(0x60657D60)
+I (.\_user\4device\SHT.h)(0x60A3D3E4)
+I (.\_user\4device\OLED\DEV_Config.h)(0x606ABFB6)
+I (.\_user\5function\GUI_Paint.h)(0x5F3BAF61)
+I (.\_user\4device\OLED\Example\../Fonts/fonts.h)(0x5BD6A308)
+I (.\_user\4device\OLED\Example\ImageData.h)(0x5F3CA45B)
+I (.\_user\4device\OLED\Debug.h)(0x606ABEF7)
+I (.\_user\4device\OLED\OLED\OLED_1in5_rgb.h)(0x5F3C88A0)
+I (.\_user\4device\OLED.h)(0x606AE470)
+I (.\_user\4device\AD7124\ad7124_console_app.h)(0x6099F7D9)
+I (.\_user\4device\AD7124\adi_console_menu.h)(0x5E46E530)
+I (.\_user\4device\AD7124\platform_support.h)(0x6073E4FF)
+I (.\_user\4device\AD7124\error.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+I (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (.\_user\4device\AD7124\ad7124_support.h)(0x606EB4BC)
+I (.\_user\4device\AD7124\ad7124_regs_configs.h)(0x5E46E530)
+F (.\_user\4device\AD7124\ad7124_noos\ad7124.c)(0x606EB21A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\ad7124.o --omf_browse .\objects\ad7124.crf --depend .\objects\ad7124.d)
+I (_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)
+F (.\_user\4device\AD7124\ad7124_noos\ad7124_regs.c)(0x60828CE4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\_user -I .\_user\1CORE -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc -I .\_user\2drive\STM32F1xx_HAL_Driver\Inc\Legacy -I .\_user\3BSP -I .\_user\4device -I .\_user\5function -I .\_user\4device\OLED\Example -I .\_user\4device\OLED\OLED -I .\_user\4device\OLED\Fonts -I .\_user\4device\OLED -I .\_user\4device\OLED\iic -I .\_user\4device\AD7124 -I .\_user\4device\AD7124\ad7124_noos-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\objects\ad7124_regs.o --omf_browse .\objects\ad7124_regs.crf --depend .\objects\ad7124_regs.d)
+I (_user\4device\AD7124\ad7124_noos\ad7124_regs.h)(0x5E466B30)
+I (_user\4device\AD7124\ad7124_noos\ad7124.h)(0x60821F0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63877C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5F63877C)
+I (.\_user\4device\AD7124\spi.h)(0x5E46E532)
+I (.\_user\4device\AD7124\delay.h)(0x5E46E530)

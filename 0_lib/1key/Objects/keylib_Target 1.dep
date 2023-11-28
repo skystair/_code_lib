@@ -1,0 +1,5 @@
+Dependencies for Project 'keylib', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (.\key.c)(0x65090A54)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-D__UVISION_VERSION="538"-o ./objects/key.o -MD)
+I (key.h)(0x65090AFE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)

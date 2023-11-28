@@ -1,0 +1,4 @@
+20230508
+	1. 新增NTCsate过度heatstep
+	2. 新增u8heatcomleteflag锁住完成后指示灯
+	3. 加热每阶段加入delay防抖
