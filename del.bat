@@ -1,5 +1,4 @@
-d:
-cd _Projrcts
+echo %cd%
 del /S *.bak
 del /S *.log
 del /S *.o
