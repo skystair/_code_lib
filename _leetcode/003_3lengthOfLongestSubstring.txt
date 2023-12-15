@@ -1,0 +1,38 @@
+char *Stmp;
+unsigned short int head,end;
+
+bool ARRfind(char ch);
+
+int lengthOfLongestSubstring(char* s) {
+    Stmp = s;
+    unsigned short int i,length= 0,MAXlenth = 0;
+    head = end = 0;
+    while(s[end] != 0){
+        if(ARRfind(s[end]) == false){
+            length++;
+        }else{
+            if(MAXlenth < length){
+                MAXlenth = length;
+            }
+            length = end-head+1;
+        }
+        
+        // printf("s[%d] = %c    " ,end ,s[end]);
+        // printf("head = %d,end = %d,length = %d,max = %d\n",head,end,length,MAXlenth);
+        end++;
+    }
+    if(MAXlenth < length){
+        MAXlenth = length;
+    }
+    return MAXlenth;
+}
+
+bool ARRfind(char ch){
+    for(unsigned short int i = head;i<end;i++){
+        if(Stmp[i] == ch){
+            head = i+1;
+            return true;
+        }
+    }
+    return false;
+}

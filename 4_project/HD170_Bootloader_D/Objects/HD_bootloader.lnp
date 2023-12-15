@@ -1,0 +1,23 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\system_hc32f19x.o"
+".\objects\interrupts_hc32f19x.o"
+".\objects\config.o"
+".\objects\startup_hc32f19x.o"
+".\objects\ddl.o"
+".\objects\gpio.o"
+".\objects\sysctrl.o"
+".\objects\timer3.o"
+".\objects\uart.o"
+".\objects\flash.o"
+".\objects\wdt.o"
+".\objects\timer.o"
+".\objects\uartx.o"
+".\objects\mainuart.o"
+".\objects\bspflash.o"
+".\objects\jump.o"
+".\objects\mainfunc.o"
+--library_type=microlib --strict --scatter ".\Objects\HD_bootloader.sct"
+--keep=*Handler --summary_stderr --info summarysizes --map --load_addr_map_info --symbols
+--info sizes --info totals
+--list ".\Listings\HD_bootloader.map" -o .\Objects\HD_bootloader.axf

@@ -1,0 +1,50 @@
+[
+    [
+        "ChipType",
+        "ES32F0271LT"
+    ],
+    [
+        "cleanFlag",
+        true
+    ],
+    [
+        "ProjectType",
+        "HR32Bit"
+    ],
+    [
+        "TargetPath",
+        "Debug"
+    ],
+    [
+        "Name",
+        "vs_es32f0283"
+    ],
+    [
+        "ESTree",
+        {
+            "ShortName": "vs_es32f0283",
+            "Path": "d:\\GIT\\_code_lib\\vscode_essoft\\vs_es32f0283\\vs_es32f0283.escfg",
+            "Type": "project",
+            "Children": [
+                {
+                    "ShortName": "main.c",
+                    "Path": "main.c",
+                    "Type": "file",
+                    "Children": []
+                },
+                {
+                    "ShortName": "ES32F027x_startup.S",
+                    "Path": "ES32F027x_startup.S",
+                    "Type": "file",
+                    "Children": []
+                },
+                {
+                    "ShortName": "InitRam.c",
+                    "Path": "InitRam.c",
+                    "Type": "file",
+                    "Children": []
+                }
+            ]
+        }
+    ]
+]

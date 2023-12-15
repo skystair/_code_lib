@@ -1,0 +1,12 @@
+[
+    {
+        "directory": "d:\\GIT\\_code_lib\\vscode_essoft\\vs_es32f0283",
+        "command": "clang     --target=armv6m-none-eabi -mcpu=cortex-m0  -c \"d:\\GIT\\_code_lib\\vscode_essoft\\vs_es32f0283\\InitRam.c\"",
+        "file": "d:\\GIT\\_code_lib\\vscode_essoft\\vs_es32f0283\\InitRam.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\vscode_essoft\\vs_es32f0283",
+        "command": "clang     --target=armv6m-none-eabi -mcpu=cortex-m0  -c \"d:\\GIT\\_code_lib\\vscode_essoft\\vs_es32f0283\\main.c\"",
+        "file": "d:\\GIT\\_code_lib\\vscode_essoft\\vs_es32f0283\\main.c"
+    }
+]

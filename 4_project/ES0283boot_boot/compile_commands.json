@@ -1,0 +1,92 @@
+[
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\config.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\config.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\libconf.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\libconf.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\main.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\main.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\key.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\key.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\timerx.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\timerx.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\adcx.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\adcx.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\exitx.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\exitx.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\gpiox.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\gpiox.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_fc.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_fc.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_wwdt.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_wwdt.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_uart.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_uart.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_tick.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_tick.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_rcu.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_rcu.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_gpio.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_gpio.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_dma.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_dma.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_adc.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_adc.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_0sys\\interrupt.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_0sys\\interrupt.c"
+    },
+    {
+        "directory": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023",
+        "command": "clang      -c \"d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_0sys\\system_es32f0283.c\"",
+        "file": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_0sys\\system_es32f0283.c"
+    }
+]

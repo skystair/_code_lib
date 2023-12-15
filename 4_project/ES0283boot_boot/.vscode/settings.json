@@ -1,0 +1,25 @@
+{
+    "esls.clang.extraArgs": [
+        "  "
+    ],
+    "esls.fileList": [
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_0sys\\system_es32f0283.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_0sys\\interrupt.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_adc.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_dma.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_gpio.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_rcu.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_tick.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_uart.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_wwdt.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_1library\\LIB_MD\\Source\\md_fc.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\gpiox.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\exitx.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\adcx.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\timerx.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\_2bsp\\key.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\main.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\libconf.c",
+        "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\config.c"
+    ]
+}

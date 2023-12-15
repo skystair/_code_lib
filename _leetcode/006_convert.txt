@@ -1,0 +1,33 @@
+char* convert(char* s, int numRows) {
+    int i,j,k,step,length;
+    int chang;
+    if(numRows == 1)    return s;
+    length = strlen(s);
+    if(numRows >= length)    return s;
+    char *ans = malloc(sizeof(char)*length +1);
+    ans[length] = 0;
+//    memcpy(ans,s,length);
+    k = 0;
+    for(j = 0;j < numRows;j++){
+        chang = 0;
+        for(i = j; i < length;i += step){
+            ans[k++] = s[i];
+            if((j == 0)||(j== numRows-1)){//首尾两行处理
+                step = numRows*2-2;
+            }else{
+                if(chang == 0){//其他行处理
+                    chang = 1;
+                    step = (numRows-j)*2-2;
+                }else{
+                    chang = 0;
+                    step = j*2;
+                }
+            }
+
+        }
+    }
+    // memcpy(s,ans,length);
+    // free(ans);
+    // return s;
+    return ans;
+}

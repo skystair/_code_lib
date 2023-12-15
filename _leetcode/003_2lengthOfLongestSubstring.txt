@@ -1,0 +1,31 @@
+
+int lengthOfLongestSubstring(char* s) {
+    unsigned char findflag;
+    unsigned short int head,end,i,length= 0,MAXlenth = 0;
+    head = end = 0;
+    while(s[end] != 0){
+        //查找
+        for(i = head;i<end;i++){
+            if(s[i] == s[end]){
+                head = i+1;
+                findflag = 1;
+            }
+        }
+        //查找结果处理
+        if(findflag == 0){
+            length++;
+        }else{
+            findflag = 0;
+            if(MAXlenth < length){
+                MAXlenth = length;
+            }
+            length = end-head+1;
+        }
+        end++;
+    }
+    //最后一个字串未判断
+    if(MAXlenth < length){
+        MAXlenth = length;
+    }
+    return MAXlenth;
+}

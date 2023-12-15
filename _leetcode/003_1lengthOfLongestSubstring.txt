@@ -1,0 +1,69 @@
+char tmpARR[50000];
+unsigned short int findpos = 0;
+unsigned short int fristpos = 0;
+unsigned short int length = 0;
+
+void ARRpush(char ch);
+bool ARRfind(char ch);
+void ARRclear(void);
+int lengthOfLongestSubstring(char* s) {
+    
+    unsigned short int pos1 = 0;
+    unsigned short int MAXlenth = 0;
+    if(s[pos1] == 0){
+        return 0;
+    }
+    ARRclear();
+    fristpos = 0;
+    while(s[pos1] != 0){
+        if(ARRfind(s[pos1]) == false){
+            ARRpush(s[pos1]);
+        }else{
+            fristpos = fristpos + findpos +1;
+            if(MAXlenth < length){
+                MAXlenth = length;
+            }
+            ARRclear();
+            length = pos1-fristpos+1;
+            memcpy(tmpARR,&s[fristpos],length);
+            // for(unsigned int i = 0;i<length;i++){
+            //     printf("a[%d] = %c\n",i,tmpARR[i]);
+            // }
+            // printf("=================\n");
+        }
+
+        pos1++;
+        if(s[pos1] == 0){
+            if(MAXlenth < length){
+                MAXlenth = length;
+            }
+        }
+    }
+
+    // for(unsigned int i = 0;i<length;i++){
+    //     printf("\na[%d] = %c\n",i,tmpARR[i]);
+    // }
+    // printf("length = %d\n",length);
+    // if(MAXlenth < length){
+    //     MAXlenth = length;
+    // }
+    return MAXlenth;
+}
+
+void ARRpush(char ch){
+    tmpARR[length++] = ch;
+}
+bool ARRfind(char ch){
+    for(unsigned int i = 0;i<length;i++){
+        if(tmpARR[i] == ch){
+            findpos = i;
+            return true;
+        }
+    }
+
+    return false;
+}
+void ARRclear(void){
+    memset(tmpARR,0,length);
+    length = 0;
+}

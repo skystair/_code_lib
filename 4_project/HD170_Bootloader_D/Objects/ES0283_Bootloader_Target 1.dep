@@ -1,0 +1,420 @@
+Dependencies for Project 'ES0283_Bootloader', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (.\_USERS\main.c)(0x5FC9AC3C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/main.o -MD)
+I (_USERS\config.h)(0x657A7516)
+I (_USERS\definition.h)(0x5F3C8E0E)
+I (_USERS\Huada\driver\inc\gpio.h)(0x5F34FA98)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+I (_USERS\Huada\driver\inc\timer3.h)(0x5FAC7E7A)
+I (_USERS\Huada\driver\inc\uart.h)(0x5F3CF344)
+I (_USERS\Huada\driver\inc\flash.h)(0x5FC5B55C)
+I (_USERS\Huada\driver\inc\wdt.h)(0x5D10B4FC)
+I (_USERS\BSP\timer.h)(0x5FB32A7C)
+I (_USERS\BSP\uartx.h)(0x5FB1EADC)
+I (_USERS\BSP\mainuart.h)(0x5FB2356A)
+I (_USERS\BSP\bspflash.h)(0x5FAA5C7E)
+I (_USERS\function\jump.h)(0x5FAA2774)
+I (_USERS\function\MainFunc.h)(0x5FB5C17C)
+F (.\_USERS\Huada\system_hc32f19x.c)(0x5FB1EEB4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/system_hc32f19x.o -MD)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+F (.\_USERS\Huada\interrupts_hc32f19x.c)(0x5E43CB98)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/interrupts_hc32f19x.o -MD)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+F (.\_USERS\config.c)(0x5FB608FA)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/config.o -MD)
+I (_USERS\config.h)(0x657A7516)
+I (_USERS\definition.h)(0x5F3C8E0E)
+I (_USERS\Huada\driver\inc\gpio.h)(0x5F34FA98)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+I (_USERS\Huada\driver\inc\timer3.h)(0x5FAC7E7A)
+I (_USERS\Huada\driver\inc\uart.h)(0x5F3CF344)
+I (_USERS\Huada\driver\inc\flash.h)(0x5FC5B55C)
+I (_USERS\Huada\driver\inc\wdt.h)(0x5D10B4FC)
+I (_USERS\BSP\timer.h)(0x5FB32A7C)
+I (_USERS\BSP\uartx.h)(0x5FB1EADC)
+I (_USERS\BSP\mainuart.h)(0x5FB2356A)
+I (_USERS\BSP\bspflash.h)(0x5FAA5C7E)
+I (_USERS\function\jump.h)(0x5FAA2774)
+I (_USERS\function\MainFunc.h)(0x5FB5C17C)
+F (.\_USERS\config.h)(0x657A7516)()
+F (.\_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)()
+F (.\_USERS\startup_hc32f19x.s)(0x5E464B24)(--cpu Cortex-M0+ -g --pd "__MICROLIB SETA 1" --diag_suppress=A1950W-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\HDSC\HC32F17X\1.0.1\Device\Include--pd "__UVISION_VERSION SETA 538"--pd "_RTE_ SETA 1"--pd "_RTE_ SETA 1"-o .\objects\startup_hc32f19x.o--depend .\objects\startup_hc32f19x.d)
+F (.\_USERS\Huada\driver\src\ddl.c)(0x5DD60324)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/ddl.o -MD)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+F (.\_USERS\Huada\driver\src\gpio.c)(0x5F3B9320)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/gpio.o -MD)
+I (_USERS\Huada\driver\inc\gpio.h)(0x5F34FA98)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+F (.\_USERS\Huada\driver\src\sysctrl.c)(0x5FB1D8B6)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/sysctrl.o -MD)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+F (.\_USERS\Huada\driver\src\timer3.c)(0x5D10B738)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/timer3.o -MD)
+I (_USERS\Huada\driver\inc\timer3.h)(0x5FAC7E7A)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+F (.\_USERS\Huada\driver\src\uart.c)(0x5E057EF0)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/uart.o -MD)
+I (_USERS\Huada\driver\inc\uart.h)(0x5F3CF344)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+F (.\_USERS\Huada\driver\src\flash.c)(0x5FC5B552)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/flash.o -MD)
+I (_USERS\Huada\driver\inc\flash.h)(0x5FC5B55C)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+F (.\_USERS\Huada\driver\src\wdt.c)(0x5D10B764)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/wdt.o -MD)
+I (_USERS\Huada\driver\inc\wdt.h)(0x5D10B4FC)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+F (.\_USERS\BSP\timer.c)(0x5FB5EC0A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/timer.o -MD)
+I (_USERS\config.h)(0x657A7516)
+I (_USERS\definition.h)(0x5F3C8E0E)
+I (_USERS\Huada\driver\inc\gpio.h)(0x5F34FA98)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+I (_USERS\Huada\driver\inc\timer3.h)(0x5FAC7E7A)
+I (_USERS\Huada\driver\inc\uart.h)(0x5F3CF344)
+I (_USERS\Huada\driver\inc\flash.h)(0x5FC5B55C)
+I (_USERS\Huada\driver\inc\wdt.h)(0x5D10B4FC)
+I (_USERS\BSP\timer.h)(0x5FB32A7C)
+I (_USERS\BSP\uartx.h)(0x5FB1EADC)
+I (_USERS\BSP\mainuart.h)(0x5FB2356A)
+I (_USERS\BSP\bspflash.h)(0x5FAA5C7E)
+I (_USERS\function\jump.h)(0x5FAA2774)
+I (_USERS\function\MainFunc.h)(0x5FB5C17C)
+F (.\_USERS\BSP\uartx.c)(0x5FB347AE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/uartx.o -MD)
+I (_USERS\config.h)(0x657A7516)
+I (_USERS\definition.h)(0x5F3C8E0E)
+I (_USERS\Huada\driver\inc\gpio.h)(0x5F34FA98)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+I (_USERS\Huada\driver\inc\timer3.h)(0x5FAC7E7A)
+I (_USERS\Huada\driver\inc\uart.h)(0x5F3CF344)
+I (_USERS\Huada\driver\inc\flash.h)(0x5FC5B55C)
+I (_USERS\Huada\driver\inc\wdt.h)(0x5D10B4FC)
+I (_USERS\BSP\timer.h)(0x5FB32A7C)
+I (_USERS\BSP\uartx.h)(0x5FB1EADC)
+I (_USERS\BSP\mainuart.h)(0x5FB2356A)
+I (_USERS\BSP\bspflash.h)(0x5FAA5C7E)
+I (_USERS\function\jump.h)(0x5FAA2774)
+I (_USERS\function\MainFunc.h)(0x5FB5C17C)
+F (.\_USERS\BSP\mainuart.c)(0x5FB25232)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/mainuart.o -MD)
+I (_USERS\config.h)(0x657A7516)
+I (_USERS\definition.h)(0x5F3C8E0E)
+I (_USERS\Huada\driver\inc\gpio.h)(0x5F34FA98)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+I (_USERS\Huada\driver\inc\timer3.h)(0x5FAC7E7A)
+I (_USERS\Huada\driver\inc\uart.h)(0x5F3CF344)
+I (_USERS\Huada\driver\inc\flash.h)(0x5FC5B55C)
+I (_USERS\Huada\driver\inc\wdt.h)(0x5D10B4FC)
+I (_USERS\BSP\timer.h)(0x5FB32A7C)
+I (_USERS\BSP\uartx.h)(0x5FB1EADC)
+I (_USERS\BSP\mainuart.h)(0x5FB2356A)
+I (_USERS\BSP\bspflash.h)(0x5FAA5C7E)
+I (_USERS\function\jump.h)(0x5FAA2774)
+I (_USERS\function\MainFunc.h)(0x5FB5C17C)
+F (.\_USERS\BSP\bspflash.c)(0x5FB1D65C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/bspflash.o -MD)
+I (_USERS\config.h)(0x657A7516)
+I (_USERS\definition.h)(0x5F3C8E0E)
+I (_USERS\Huada\driver\inc\gpio.h)(0x5F34FA98)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+I (_USERS\Huada\driver\inc\timer3.h)(0x5FAC7E7A)
+I (_USERS\Huada\driver\inc\uart.h)(0x5F3CF344)
+I (_USERS\Huada\driver\inc\flash.h)(0x5FC5B55C)
+I (_USERS\Huada\driver\inc\wdt.h)(0x5D10B4FC)
+I (_USERS\BSP\timer.h)(0x5FB32A7C)
+I (_USERS\BSP\uartx.h)(0x5FB1EADC)
+I (_USERS\BSP\mainuart.h)(0x5FB2356A)
+I (_USERS\BSP\bspflash.h)(0x5FAA5C7E)
+I (_USERS\function\jump.h)(0x5FAA2774)
+I (_USERS\function\MainFunc.h)(0x5FB5C17C)
+F (.\_USERS\function\jump.c)(0x5FD1BB4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/jump.o -MD)
+I (_USERS\config.h)(0x657A7516)
+I (_USERS\definition.h)(0x5F3C8E0E)
+I (_USERS\Huada\driver\inc\gpio.h)(0x5F34FA98)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+I (_USERS\Huada\driver\inc\timer3.h)(0x5FAC7E7A)
+I (_USERS\Huada\driver\inc\uart.h)(0x5F3CF344)
+I (_USERS\Huada\driver\inc\flash.h)(0x5FC5B55C)
+I (_USERS\Huada\driver\inc\wdt.h)(0x5D10B4FC)
+I (_USERS\BSP\timer.h)(0x5FB32A7C)
+I (_USERS\BSP\uartx.h)(0x5FB1EADC)
+I (_USERS\BSP\mainuart.h)(0x5FB2356A)
+I (_USERS\BSP\bspflash.h)(0x5FAA5C7E)
+I (_USERS\function\jump.h)(0x5FAA2774)
+I (_USERS\function\MainFunc.h)(0x5FB5C17C)
+F (.\_USERS\function\MainFunc.c)(0x657A7516)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./_USERS -I ./_USERS/Huada -I ./_USERS/Huada/driver/inc -I ./_USERS/BSP -I ./_USERS/devices -I ./_USERS/function-I./RTE/_Target_1-IC:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Administrator/AppData/Local/Arm/Packs/HDSC/HC32F17X/1.0.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/mainfunc.o -MD)
+I (_USERS\config.h)(0x657A7516)
+I (_USERS\definition.h)(0x5F3C8E0E)
+I (_USERS\Huada\driver\inc\gpio.h)(0x5F34FA98)
+I (_USERS\Huada\driver\inc\ddl.h)(0x5F3C8D56)
+I (_USERS\Huada\base_types.h)(0x5F3B812C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (_USERS\Huada\board_stkhc32f19x.h)(0x5FA8B198)
+I (_USERS\Huada\hc32f19x.h)(0x5E43B9D4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (_USERS\Huada\system_hc32f19x.h)(0x5E464B24)
+I (_USERS\Huada\driver\inc\sysctrl.h)(0x5F3B89C8)
+I (_USERS\Huada\interrupts_hc32f19x.h)(0x5F3B80BA)
+I (_USERS\ddl_device.h)(0x5ED63EEE)
+I (_USERS\Huada\driver\inc\timer3.h)(0x5FAC7E7A)
+I (_USERS\Huada\driver\inc\uart.h)(0x5F3CF344)
+I (_USERS\Huada\driver\inc\flash.h)(0x5FC5B55C)
+I (_USERS\Huada\driver\inc\wdt.h)(0x5D10B4FC)
+I (_USERS\BSP\timer.h)(0x5FB32A7C)
+I (_USERS\BSP\uartx.h)(0x5FB1EADC)
+I (_USERS\BSP\mainuart.h)(0x5FB2356A)
+I (_USERS\BSP\bspflash.h)(0x5FAA5C7E)
+I (_USERS\function\jump.h)(0x5FAA2774)
+I (_USERS\function\MainFunc.h)(0x5FB5C17C)

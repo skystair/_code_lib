@@ -1,0 +1,67 @@
+// 0 <= s.length <= 200
+// s 由英文字母（大写和小写）、数字（0-9）、' '、'+'、'-' 和 '.' 组成
+
+#define MAX  2147483647
+#define MIN  -2147483648
+int myAtoi(char* s){
+    unsigned int A = 0,i = 0;
+    char flag = 0,step = 0,overflag = 0;
+    while(s[i] != 0){
+        if(step == 0){//丢空格
+                if(s[i] == ' '){
+                    //
+                }else if(s[i] == '+'){
+                    step = 1;
+                }else if(s[i] == '-'){
+                    step = 1;
+                    flag = 1;
+                }else if((s[i]>='0')&&(s[i]<='9')){
+                    step = 1;
+                    A = s[i] - '0';
+                      
+                }else{
+                    return 0;
+                }
+        }else if(step == 1){
+            if((s[i]>='0')&&(s[i]<='9')){
+                if(A > MAX/10){
+                    overflag = 1;
+                    break;
+                }else if(A == MAX/10){
+                    if(flag == 1){
+                        if(s[i] == '9'){
+                            overflag = 1;
+                        }else{
+                            A = A*10 + s[i]- '0';
+                        }
+                    }else{
+                        if(s[i] >= '8'){
+                            overflag = 1;
+                        }else{
+                            A = A*10 + s[i]- '0';
+                        }
+                    }
+                }else{
+                    A = A*10 + s[i]- '0';
+                }
+            }else{
+                break;
+            }
+        }
+        i++;
+    }
+    // printf("flag = %d\n",flag);
+    // printf("oflag = %d\n",overflag);
+    
+    if(overflag == 1){
+        if(flag == 1){
+            return MIN;
+        }else{
+            return MAX;
+        }
+    }else{
+        if(flag == 1)
+            A *= (-1);
+    }
+    return A;
+}

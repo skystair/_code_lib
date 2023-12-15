@@ -1,0 +1,44 @@
+//1.从头开始步进，步进到总长-已记录长度的位置；
+//2.从尾部找与头部重复字符；
+//3.找到后判断是否为回文，若长度大于已记录长度，则记录头尾位置；
+unsigned short int head,end,length;
+bool IsPalindrome(char *tmpS);
+
+char* longestPalindrome(char* s) {
+    unsigned short int max = 0,maxS= 0,maxE = 0;
+    length = strlen(s);
+    head = 0;
+    while(head < (length-max)){
+        for(end = length - 1;end > head+max;end--){
+            if( IsPalindrome(s) == true){
+                if(max < (end - head)){
+                    max = end - head;
+                    maxS = head;
+                    maxE = end;
+                }
+                break;
+                //printf("head = %d,end = %d,max = %d\n",head,end,max);
+            }
+        }
+        head++;
+    }
+    // char *ans = malloc(sizeof(char) * (maxE-maxS+2));
+    // ans[maxE-maxS+1] = 0;
+    // memcpy(ans,&s[maxS],maxE-maxS+1);
+    // return ans;
+    s[maxE+1] = 0;
+    s = &s[maxS];
+    return s;
+}
+
+bool IsPalindrome(char *tmpS){
+    unsigned short int tmphead,tmpend;
+    tmpend = end;
+    for(tmphead = head; tmphead < tmpend;tmphead++){
+        if(tmpS[tmphead] != tmpS[tmpend]){
+            return false;
+        }
+        tmpend--;
+    }
+    return true;
+}

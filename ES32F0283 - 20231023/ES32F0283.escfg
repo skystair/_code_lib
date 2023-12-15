@@ -1,0 +1,208 @@
+[
+    [
+        "Define",
+        ""
+    ],
+    [
+        "undefined",
+        ""
+    ],
+    [
+        "GCCCInclude",
+        ".\\_0sys,.\\_1library\\LIB_MD\\Include,.\\_2bsp,.\\_3device,.\\_4func,..\\ES32F0283,.\\_1library\\LIB_REG,.\\_0sys\\Include"
+    ],
+    [
+        "Name",
+        "Target 1"
+    ],
+    [
+        "ProjectType",
+        "HR32Bit"
+    ],
+    [
+        "ChipType",
+        "ES32F0283LT"
+    ],
+    [
+        "TargetPath",
+        ".\\Objects\\"
+    ],
+    [
+        "ESTree",
+        {
+            "ShortName": "ES32F0283",
+            "Path": "d:\\GIT\\_code_lib\\ES32F0283 - 20231023\\ES32F0283.escfg",
+            "Type": "project",
+            "Children": [
+                {
+                    "ShortName": "start",
+                    "Path": "start",
+                    "Type": "group",
+                    "Children": [
+                        {
+                            "ShortName": "startup_es32f0283.s",
+                            "Path": "_0sys\\startup_es32f0283.s",
+                            "Type": "file",
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "ShortName": "system",
+                    "Path": "system",
+                    "Type": "group",
+                    "Children": [
+                        {
+                            "ShortName": "system_es32f0283.c",
+                            "Path": "_0sys\\system_es32f0283.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "interrupt.c",
+                            "Path": "_0sys\\interrupt.c",
+                            "Type": "file",
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "ShortName": "library",
+                    "Path": "library",
+                    "Type": "group",
+                    "Children": [
+                        {
+                            "ShortName": "md_adc.c",
+                            "Path": "_1library\\LIB_MD\\Source\\md_adc.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "md_dma.c",
+                            "Path": "_1library\\LIB_MD\\Source\\md_dma.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "md_gpio.c",
+                            "Path": "_1library\\LIB_MD\\Source\\md_gpio.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "md_rcu.c",
+                            "Path": "_1library\\LIB_MD\\Source\\md_rcu.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "md_tick.c",
+                            "Path": "_1library\\LIB_MD\\Source\\md_tick.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "md_uart.c",
+                            "Path": "_1library\\LIB_MD\\Source\\md_uart.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "md_wwdt.c",
+                            "Path": "_1library\\LIB_MD\\Source\\md_wwdt.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "md_fc.c",
+                            "Path": "_1library\\LIB_MD\\Source\\md_fc.c",
+                            "Type": "file",
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "ShortName": "bsp",
+                    "Path": "bsp",
+                    "Type": "group",
+                    "Children": [
+                        {
+                            "ShortName": "gpiox.c",
+                            "Path": "_2bsp\\gpiox.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "exitx.c",
+                            "Path": "_2bsp\\exitx.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "adcx.c",
+                            "Path": "_2bsp\\adcx.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "timerx.c",
+                            "Path": "_2bsp\\timerx.c",
+                            "Type": "file",
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "ShortName": "device",
+                    "Path": "device",
+                    "Type": "group",
+                    "Children": [
+                        {
+                            "ShortName": "key.c",
+                            "Path": "_2bsp\\key.c",
+                            "Type": "file",
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "ShortName": "func",
+                    "Path": "func",
+                    "Type": "group",
+                    "Children": [
+                        {
+                            "ShortName": "main.c",
+                            "Path": "main.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "libconf.c",
+                            "Path": "libconf.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "config.c",
+                            "Path": "config.c",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "config.h",
+                            "Path": "config.h",
+                            "Type": "file",
+                            "Children": []
+                        },
+                        {
+                            "ShortName": "BSP2DEVICE.h",
+                            "Path": "BSP2DEVICE.h",
+                            "Type": "file",
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+]

@@ -1,0 +1,12 @@
+{
+    "esls.fileList": [
+        "d:\\GIT\\_code_lib\\vscode_essoft\\vs_es32f0283\\main.c",
+        "d:\\GIT\\_code_lib\\vscode_essoft\\vs_es32f0283\\InitRam.c"
+    ],
+    "esls.compile.includePath": "",
+    "esls.compile.macro": "",
+    "esls.compile.extraArgs": " --target=armv6m-none-eabi -mcpu=cortex-m0",
+    "esls.clang.extraArgs": [
+        "  --target=armv6m-none-eabi -mcpu=cortex-m0 "
+    ]
+}

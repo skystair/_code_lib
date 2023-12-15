@@ -1,0 +1,38 @@
+bool isPalindrome(int x) {
+    int tmp,halfx,newhalf,pwr;
+    char cnt,mcnt;
+    if(x < 0){
+        return false;
+    }else if(x < 10) return true;
+
+    tmp = x;
+    cnt = 0;
+    while(tmp){
+        tmp /=10;
+        cnt++;
+    }
+    tmp = x;
+    mcnt = cnt/2;
+    pwr = 1;
+    for(int i= 0;i<mcnt;i++){
+        pwr = pwr*10;
+    }
+    halfx = tmp%(pwr);
+    newhalf = 0;
+    for(int i = 0;i<mcnt;i++){
+        newhalf = newhalf*10 + halfx%10;
+        halfx /= 10;
+    }
+    if(cnt%2== 0){
+        tmp = tmp/(pwr);
+    }else{
+        tmp = tmp/(pwr*10);
+    }
+    
+    if(newhalf == tmp){
+        return true;
+    }else{
+        return false;
+    }
+    return false;
+}
